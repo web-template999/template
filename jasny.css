@@ -1,0 +1,41 @@
+body{width: 99.52%; background-color: white; text-align: center;}
+#container{width: 85%; margin-left: auto; margin-right: auto; background-color: whitesmoke; border: 2px double #B7B3B3;}
+#container2{width: 85%; margin-left: auto; margin-right: auto; background-color: whitesmoke; border: 2px double #B7BCBC; height: 900px;}
+#naglowek{ margin-top: 10px;height: 100px;width: 99.5%; margin-left: auto; margin-right: auto; font-size: 90px; font-family: "Trebuchet MS", Helvetica, sans-serif; border: 2px double whitesmoke;}
+#komunikat{width: 100%; font-size:0px; height: 0px; background-color: red; color: white;} .promocja{width: 100%; font-size:25px; height: 30px; background-color: orange; color: white;}
+#menu{width: 100%; background-color: #212121; color: white; height: 30px; margin-top: 20px; font-family: "Comic Sans MS", cursive, sans-serif;}
+.option{width: 25%; height: 100%; float: left; font-size: 125%;}
+.option2{width: 100%; height: 0px; font-size: 0px; background-color: #3d3a3c;  transition-duration:1s; color: rgb(3, 137, 254)}
+.option:hover .option2{
+    height: 23px; font-size: 75%; float: center;
+} #footer{width: 100%; font-size: 25px; font-family: "Arial Black", Gadget, sans-serif;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .option{width: 100%; height: 25%; margin-top: 5px;} #menu{height: 200px;} .option:hover .option2{height: 0px; font-size: 0px;} #naglowek{font-size: 70px;}
+    #container{height: 1325px;}  .opis{margin-top: 100px;} #input1{height: 20px; width: 100%;} #container2{height: 1750px;}#footer{font-size: 15px;} #dodatki{margin-top: 200%;}.promocja{height:75px;}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .option{width: 100%; height: 33.3%;} #menu{height:100px;}.option:hover .option2{height: 0px; font-size: 0px;}.opis{margin-top:100px;} #container2{height: 1050px;}
+    #footer{font-size: 20px;} #dodatki{margin-top: 75%;} #container2{height: 1650px;}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .option{width: 50%; float: center;} #menu{height: 30px;} .option:hover .option2{width: 100%; height: 23px; font-size: 75%; float: center;}
+    #container2{height: 1680px;}#dodatki{margin-top: 60%;}
+}  
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .option{width: 50%;} #opis{margin-top: 0px;} #footer{font-size: 25px;}#dodatki{margin-top: 45%;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #container{height: 1680px;} .option{width: 50%;} #dodatki{margin-top: 33%;}
+}
+.opis{width: 100%; font-size: 150%; height: 200px; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.title{width: 100%; height: 100px;font-size: 300%; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.domena{font-family: "Arial Black", Gadget, sans-serif;}
